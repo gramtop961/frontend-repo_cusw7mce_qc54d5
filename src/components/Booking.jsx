@@ -31,7 +31,7 @@ export default function Booking(){
           email: form.email,
           phone: form.phone,
           datetime_iso: dt.toISOString(),
-          location:'Mourenx',
+          location:'Pau',
           notes: form.notes || undefined
         })
       })
@@ -67,7 +67,7 @@ export default function Booking(){
   return (
     <div className="max-w-3xl mx-auto px-4 sm:px-6 py-10">
       <h1 className="font-serif text-3xl text-rose-900 mb-2">Prendre rendez-vous</h1>
-      <p className="text-rose-700 mb-6">Les rendez-vous ont lieu à Mourenx.</p>
+      <p className="text-rose-700 mb-6">Les rendez-vous ont lieu à Pau.</p>
 
       {message && (
         <div className={`mb-4 p-3 rounded ${message.type==='success'?'bg-emerald-50 text-emerald-700':'bg-rose-50 text-rose-700'}`}>{message.text}</div>

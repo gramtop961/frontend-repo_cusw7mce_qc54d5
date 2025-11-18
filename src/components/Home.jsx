@@ -66,7 +66,7 @@ export default function Home(){
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.1 }}
             >
-              Manucures élégantes, nail art moderne et soin des mains avec une approche douce et raffinée. Prenez rendez-vous à Mourenx.
+              Manucures élégantes, nail art moderne et soin des mains avec une approche douce et raffinée. Prenez rendez-vous à Pau.
             </motion.p>
             <motion.div className="mt-6 flex gap-3" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }}>
               <Link to="/reservation" className="px-6 py-3 rounded-full bg-rose-600 text-white hover:bg-rose-700 transition will-change-transform hover:scale-[1.02] active:scale-[0.98] shadow-md shadow-rose-300/30">Prendre rendez-vous</Link>
@@ -90,7 +90,7 @@ export default function Home(){
 
       <section className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
         <h2 className="font-serif text-3xl text-rose-900">À propos</h2>
-        <p className="mt-3 text-rose-700 max-w-3xl">Passionnée par l'élégance des mains, je vous accueille à Mourenx pour des prestations soignées et personnalisées. Mon style mêle douceur, précision et créativité pour sublimer vos ongles au quotidien comme pour les grandes occasions.</p>
+        <p className="mt-3 text-rose-700 max-w-3xl">Passionnée par l'élégance des mains, je vous accueille à Pau pour des prestations soignées et personnalisées. Mon style mêle douceur, précision et créativité pour sublimer vos ongles au quotidien comme pour les grandes occasions.</p>
       </section>
 
       <section className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
